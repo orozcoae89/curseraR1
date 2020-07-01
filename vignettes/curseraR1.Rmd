@@ -1,0 +1,29 @@
+---
+title: "CoursePackages"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{farspackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+knitr::opts_chunk$set(eval = FALSE, include = FALSE)
+```
+
+Read the data
+
+```{r eval=FALSE, include=FALSE}
+fars_data <- fars_read_years(2013)
+```
+Summary basic
+
+```{r eval=FALSE, include=FALSE}
+knitr::kable(fars_summarize_years(years = c(2013:2014))) 

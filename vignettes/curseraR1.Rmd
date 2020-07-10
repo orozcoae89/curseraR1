@@ -2,7 +2,7 @@
 title: "CoursePackages"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{farspackage}
+  %\VignetteIndexEntry{CoursePackages}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
